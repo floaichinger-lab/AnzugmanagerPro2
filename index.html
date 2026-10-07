@@ -220,7 +220,7 @@ main{padding:14px 12px 90px;}
 
 .title-meta{display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end;}
 .title-field{display:flex; flex-direction:column; gap:4px; min-width:108px;}
-.title-remark{flex:1 1 160px; max-width:220px;}
+.title-remark{flex:2 1 280px; max-width:400px;}
 .remark-label{font-size:9px; font-weight:800; text-transform:uppercase; letter-spacing:.3px; color:var(--sub);}
 .title-field input, .status-select{
   font-size:12.5px; padding:7px 9px; height:32px; font-weight:500;
@@ -1786,10 +1786,10 @@ function renderRows(sId, type, gender) {
         const rows = [
             {id:'hg', n:'Handgelenk', l:5},
             {id:'oM', n:'TOA Arm', l:4},
-            {id:'br', n:'Brust', l:5},
+            {id:'br', n:'Brust', l:5, cm:true},
             {id:'hU', n:'Hüftnath', l:5},
             {id:'h18', n:'Hüftnath', l:5, cmReplace:true},
-            {id:'tO', n:'TOL', l:5},
+            {id:'tO', n:'TOL', l:5, cm:true},
             {id:'oS', n:'Oberschenkel', l:5, cm:true},
             {id:'kN', n:'Knie', l:5, cm:true}
         ];
